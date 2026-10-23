@@ -1,0 +1,42 @@
+DumasWriter website content evidence — 23 October 2026
+
+User requirement: English promotional website for DumasWriter, installed via
+the App Store. Writing happens in the native app and is saved on the device.
+
+Installed app inspected read-only: /Applications/DumasWriter.app
+Info.plist: MacOSX, version 0.8.4 (build 5), minimum macOS 14.6.
+The site defers current requirements and price to the actual App Store listing.
+
+Contents/Resources/en.lproj/Localizable.strings:
+Library folder selection; book is a folder and chapters are files; Markdown
+autosave after typing pauses; Library Command-O; notes Shift-Command-M;
+Scene > Browse Scenes; Still / Gentle / Alive; Settings > Text;
+Sound styles and typing sounds; import DOCX/RTF/text; Help > Tutorial;
+backups and draft recovery behavior.
+
+Contents/MacOS/DumasWriter embedded feature-tour strings:
+File > Export Writing: chapter, paper, whole book; PDF, Word, Markdown, EPUB.
+Writing > Draft History and Recovery; Writing > Backups and Recovery;
+Writing > Saved Writing Setups; File > Import.
+
+Source repo supplied by user: https://github.com/MrRuslanMr/FocusWriter
+GitHub connector returned 404, but signed-in browser can access private repo.
+Source reviewed in signed-in browser: main f401401, September 7, 2026.
+Dumas/TutorialView.swift: scene response lines 447-460; Browse Scenes 484;
+music/nature 495; Text settings 544; Pages 571; Library Command-O 582;
+notes Shift-Command-M 614; Markdown autosave 640; Help Tutorial 662.
+Dumas/DumasApp.swift: New Chapter/New Command-N 26-29; New Book 31;
+Library and notes shortcuts 42-54; older Export Book menu 70.
+Dumas/HomeSetupView.swift: first-run Library folder chooser and persistence.
+TRUST.md: local plain-text files, two-second pause autosave, no app network
+entitlements or account.
+Dumas/BookExport.swift: main supports Markdown and PDF ONLY (lines 18-20).
+
+VERSION DIFFERENCE: repository main is older than installed v0.8.4.
+Word/EPUB export, import, saved setups, backups, and draft history are supported
+by installed app localization/tutorial/executable strings, not by this older
+main branch. The public guide explicitly identifies version 0.8.4.
+
+No verified App Store product URL/ID, pricing, or non-Mac availability found.
+The site uses a documented generic App Store fallback; see site-config.js.
+Do not describe its CTA as a direct listing link until configured.

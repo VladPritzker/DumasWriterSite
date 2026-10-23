@@ -1,0 +1,17 @@
+DumasWriter marketing background assets
+
+Prepared from the user-provided Dumas folder on 2026-10-23.
+Source directory: /Users/safe/Desktop/Dumas/Resized
+
+app-mist.jpg: Mist Fall.jpg
+Visual: Blue mountain valley at dawn, with a bank of mist spilling over a ridge.
+
+app-forest.jpg: Forest 2.0 6k.jpg
+Visual: Mossy forest and stream, tall tree trunks, soft sunlight through mist.
+
+app-night.jpg: stars 6k.jpg
+Visual: Telescope beside a circular observatory window, overlooking a starry sky and mountains above clouds.
+
+Processing: sips; width 1600 pixels, aspect ratio preserved, JPEG quality 84.
+No creative edits. No manuscripts or audio copied.
+These image assets do not by themselves establish app features or interface behavior.
