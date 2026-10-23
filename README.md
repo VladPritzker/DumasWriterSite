@@ -1,4 +1,4 @@
-# DumasWriterSste
+# DumasWriterSшte
 
 A midnight-blue, book-inspired promotional website and English getting-started guide for **DumasWriter**, a native Mac writing app.
 
